@@ -1,6 +1,8 @@
 @extends('layout.app')
 
 @section('content')
+<!-- Balises meta pour désindexer la page -->
+<meta name="robots" content="noindex, nofollow">
 <div class="w-full bg-cse">
     <div class="flex flex-col justify-between max-w-screen-xl mx-auto pb-6 px-4 md:flex-row md:py-10 md:space-x-12">
         <div class="flex flex-col w-full py-4 justify-evenly text-justify text-white md:w-3/5 lg:w-1/2">
